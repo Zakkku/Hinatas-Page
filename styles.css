@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(208, 199, 224);
+    display: flex;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(50, 147, 161);
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    transform: rotate(-30deg);
+}
+
+div {
+    display: inline;
+
+    margin-top: 90px;
+}
+
+#img_div {
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* CSS rules for mobile devices */
+    body {
+        display: block;
+        text-align: center;
+    }
+
+    img {
+        margin-top: 70px;
+    }
+
+    #img_div {
+        padding-left: 10px;
+    }
+
+    h1 {
+        margin-top: 85px;
+    }
+}
